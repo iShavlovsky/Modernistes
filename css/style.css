@@ -1,0 +1,45 @@
+
+.arow-ico{
+    opacity: 0;
+    transition:all 0.5s ease-in-out;
+}
+
+a.hover > .photo-subtitle-w > .arow-ico{
+    opacity: 1;
+    transition:all 0.5s ease-in-out;
+}
+
+
+
+
+.slider1-slide {
+    opacity: 0;
+}
+.slider2-slide {
+    opacity: 0;
+}
+.slider3-slide {
+    opacity: 0;
+}
+
+
+
+.slider1-slide.current {
+    opacity: 1;
+}
+.slider2-slide.current {
+    opacity: 1;
+}
+.slider3-slide.current {
+    opacity: 1;
+}
+.slider2-nav-btn.current{
+    opacity: 1;
+}
+.slider3-nav-btn.current{
+    opacity: 1;
+}
+
+.current {
+    transition:all 0.8s ease-in-out;
+}
